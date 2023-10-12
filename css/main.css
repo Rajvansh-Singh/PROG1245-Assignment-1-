@@ -35,6 +35,7 @@ body {
     border-radius: 10px; 
     padding: 15px; 
     margin: 15px; 
+    clear:both;
   }
   /* Change font color and set font-variant for h1 and h2 elements */
 h1, h2 {
