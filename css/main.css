@@ -1,0 +1,105 @@
+/* Created by Student Name:   [Rajvansh Singh]
+                Student Number: [8862041]-->*/
+/* Part 1 */
+body {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font: 16px Arial, sans-serif;
+    padding: 20px;
+}
+
+#div1{
+    float: left;
+    
+}
+#div2{
+    padding-left: 150px;
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+}
+/* Part 2 */
+/* Define a class for the header element */
+.header-footer {
+    border: 2px solid #333; /* Add a 2px solid border with color #333 */
+    border-radius: 10px; /* Add rounded corners with a radius of 10px */
+    padding: 10px; /* Add 10px of padding inside the element */
+    margin: 10px; /* Add 10px of margin around the element */
+  }
+  
+  /* Define a class for the footer element */
+  .footer {
+    border: 2px solid #555; /* Add a 2px solid border with color #555 */
+    border-radius: 10px; /* Add rounded corners with a radius of 10px */
+    padding: 15px; /* Add 15px of padding inside the element */
+    margin: 15px; /* Add 15px of margin around the element */
+  }
+  /* Change font color and set font-variant for h1 and h2 elements */
+h1, h2 {
+    color: blue; /* Change font color to blue */
+    font-variant: small-caps; /* Set font variant to small-caps */
+  }
+  
+  /* Reduce font size and change color for p elements within footer */
+  footer p {
+    font-size: 14px; /* Reduce font size to 14 pixels */
+    color: green; /* Change font color to green */
+  }
+  
+
+/* Part 3 */
+/* Set the width and float for the <main> element */
+main {
+    width: 66.6667%; /* Set the width to 2/3 of the page */
+    float: left; /* Float the element to the left to make it sit beside other elements */
+    margin: 10px; /* Add margin to create spacing around the element */
+    padding: 10px; /* Add padding within the element */
+  }
+  
+  /* Set the width and float for the <aside> element */
+  aside {
+    width: 33.3333%; /* Set the width to 1/3 of the page */
+    float: left; /* Float the element to the left to make it sit beside other elements */
+    margin: 10px; /* Add margin to create spacing around the element */
+    padding: 10px; /* Add padding within the element */
+  }
+  
+  /* Clear the float to prevent following elements from being affected */
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+/* Part 4 */
+.mainimg img {
+    border: 2px solid #333;
+}
+
+figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+q {
+    font-family: cursive;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+/* Part 5 */
+ul li {
+    list-style: none;
+    line-height: 1.6;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #0077b6;
+}
+
+ul li a:hover {
+    color: #ff6b6b;
+}
