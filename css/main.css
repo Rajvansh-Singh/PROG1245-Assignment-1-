@@ -21,7 +21,7 @@ body {
     flex-direction: row;
 }
 /* Part 2 */
-/* Define a class for the header element */
+/* Defining a class for the header element */
 .header-footer {
     border: 2px solid #333; 
     border-radius: 10px; 
@@ -29,7 +29,7 @@ body {
     margin: 10px; 
   }
   
-  /* Define a class for the footer element */
+  /* Defining a class for the footer element */
   .footer {
     border: 2px solid #555; 
     border-radius: 10px; 
@@ -37,13 +37,13 @@ body {
     margin: 15px; 
     clear:both;
   }
-  /* Change font color and set font-variant for h1 and h2 elements */
+  /* Changing font color and setting font-variant for h1 and h2 elements */
 h1, h2 {
-    color: blue; /* Change font color to blue */
-    font-variant: small-caps; /* Set font variant to small-caps */
+    color: rgba(4, 88, 5, 0.91); /* Change font color to yellow */
+    font-variant: small-caps; 
   }
   
-  /* Reduce font size and change color for p elements within footer */
+  /* Reducing font size and changing color for p elements within footer */
   footer p {
     font-size: 14px; 
     color: green; 
@@ -51,7 +51,7 @@ h1, h2 {
   
 
 /* Part 3 */
-/* Set the width and float for the <main> element */
+/* Setting the width and float for the <main> element */
 main {
     width: 66.6667%; /* Seting the width to 2/3 of the page */
     float: left; /* Floating the element to the left to make it sit beside other elements */
@@ -59,7 +59,7 @@ main {
     padding: 10px; 
   }
   
-  /* Set the width and float for the <aside> element */
+  /* Setting the width and float for the <aside> element */
   aside {
     width: 33.3333%; /* Setting the width to 1/3 of the page */
     float: left; /* Floating the element to the left to make it sit beside other elements */
@@ -67,7 +67,7 @@ main {
     padding: 10px; 
   }
   
-  /* Clear the float to prevent following elements from being affected */
+  /* Clearing the float to prevent following elements from being affected */
   .clearfix::after {
     content: "";
     display: table;
